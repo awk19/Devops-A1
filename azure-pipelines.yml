@@ -27,5 +27,5 @@ steps:
     deployToSlotOrASE: true
     resourceGroupName: 'Devops-A1'
     slotName: 'production'
-    package: '$(System.DefaultWorkingDirectory)/ *.zip'
+    package: '$(System.DefaultWorkingDirectory)/*.zip'
     deploymentMethod: 'auto'
